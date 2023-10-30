@@ -1,0 +1,11 @@
+piprline{
+  agent any
+  stages{
+    stage('Git Clone'){
+      steps{
+        git url: '', branch: 'main'
+      }
+    }
+  }
+
+}
